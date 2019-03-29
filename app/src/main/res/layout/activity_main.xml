@@ -11,20 +11,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="24dp"
         android:text="@string/tv_title"
         android:layout_gravity="center"/>
 
     <LinearLayout
+        android:layout_marginTop="@dimen/padding_general"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/size_box"
         android:orientation="horizontal">
 
         <LinearLayout
             android:id="@+id/ll_product1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:background="@color/red"
             android:layout_weight="1">
 
             <TextView
@@ -42,9 +45,12 @@
         <LinearLayout
             android:id="@+id/ll_product2"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:background="@color/gray"
+            android:layout_marginLeft="@dimen/padding_general"
+            android:layout_marginRight="@dimen/padding_general"
             android:layout_weight="1">
 
             <TextView
@@ -62,9 +68,10 @@
         <LinearLayout
             android:id="@+id/ll_product3"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:background="@color/purple"
             android:layout_weight="1">
 
             <TextView
@@ -83,15 +90,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/size_box"
         android:orientation="horizontal">
 
         <LinearLayout
             android:id="@+id/ll_product4"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:background="@color/light_blue"
+            android:layout_marginTop="@dimen/padding_general"
+            android:layout_marginBottom="@dimen/padding_general"
             android:layout_weight="1">
 
             <TextView
@@ -109,9 +119,14 @@
         <LinearLayout
             android:id="@+id/ll_product5"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:layout_marginLeft="@dimen/padding_general"
+            android:layout_marginRight="@dimen/padding_general"
+            android:background="@color/mint"
+            android:layout_marginTop="@dimen/padding_general"
+            android:layout_marginBottom="@dimen/padding_general"
             android:layout_weight="1">
 
             <TextView
@@ -129,9 +144,12 @@
         <LinearLayout
             android:id="@+id/ll_product6"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:background="@color/orange"
+            android:layout_marginTop="@dimen/padding_general"
+            android:layout_marginBottom="@dimen/padding_general"
             android:layout_weight="1">
 
             <TextView
@@ -150,15 +168,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/size_box"
         android:orientation="horizontal">
 
         <LinearLayout
             android:id="@+id/ll_product7"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:background="@color/yellow"
             android:layout_weight="1">
 
             <TextView
@@ -176,9 +195,12 @@
         <LinearLayout
             android:id="@+id/ll_product8"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:layout_marginLeft="@dimen/padding_general"
+            android:layout_marginRight="@dimen/padding_general"
+            android:background="@color/blue"
             android:layout_weight="1">
 
             <TextView
@@ -196,9 +218,10 @@
         <LinearLayout
             android:id="@+id/ll_product9"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:background="@color/green"
             android:layout_weight="1">
 
             <TextView
@@ -217,6 +240,7 @@
 
     <TextView
         android:id="@+id/tv_user"
+        android:layout_marginTop="64dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tv_user"/>
