@@ -72,6 +72,7 @@ public class SecondActivity extends AppCompatActivity {
 
 
             mIntentShare.putExtras(sBundle);
+            startActivity(mIntentShare);
         });
     }
 }
