@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EvaluacionLabo1</string>
+    <string name="tv_user">Usuario</string>
+    <string name="hint_user">Escribe el usuario aqui</string>
+    <string name="tv_email">Correo Electronico</string>
+    <string name="hint_email">Escribe el correo aqui</string>
+    <string name="btn_text">Enviar</string>
+    <string name="tv_title">Contador de Productos</string>
+    <string name="tv_count_placeholder">#</string>
+</resources>
